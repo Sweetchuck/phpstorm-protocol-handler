@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=PhpStorm Protocol Handler
+GenericName=phpstorm:// handler
+Comment=Handle URL Scheme phpstorm://open?file=:file&line=:line
+Icon=PhpStorm
+NoDisplay=true
+Categories=TextEditor;Utility;
+Exec=phpstorm-protocol-handler.php %u
+StartupNotify=false
+Terminal=false
+MimeType=x-scheme-handler/phpstorm;
